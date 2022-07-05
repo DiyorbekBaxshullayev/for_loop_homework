@@ -8,6 +8,7 @@ def main(n):
     """
   
     for x in range(0,n):
+        type(x)==str
         print(str(x))
 
 print(main(3))
