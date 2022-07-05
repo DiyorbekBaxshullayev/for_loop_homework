@@ -6,9 +6,10 @@ def main(n):
     Returns:
         string: return  answer
     """
-  
-    for x in range(0,n):
-        type(x)==str
-        print(str(x))
+    x = ''
+    for i in range(n):
+        x += str(i)
+    return ','.join(x)
 
 print(main(3))
+
